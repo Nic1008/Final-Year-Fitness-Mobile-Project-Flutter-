@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GENERATED FOR ANDROID BY CHATGPT (MATCHES your firebase_options.dart) -->
+
+    <string name="firebase_api_key">AIzaSyDxYcEdG3Cit9Of_lNq4w084dIeZtOi-rQ</string>
+    <string name="firebase_app_id">1:129242841170:android:2ca6f53b4dc90aa7da9f8b</string>
+    <string name="firebase_messaging_sender_id">129242841170</string>
+    <string name="firebase_project_id">workout-videos-18c23</string>
+    <string name="firebase_storage_bucket">workout-videos-18c23.firebasestorage.app</string>
+
+    <!-- OPTIONAL BUT SAFE TO INCLUDE -->
+    <string name="firebase_database_url"></string>
+    <string name="firebase_measurement_id"></string>
+</resources>
