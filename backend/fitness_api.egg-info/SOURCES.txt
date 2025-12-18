@@ -1,0 +1,6 @@
+pyproject.toml
+fitness_api.egg-info/PKG-INFO
+fitness_api.egg-info/SOURCES.txt
+fitness_api.egg-info/dependency_links.txt
+fitness_api.egg-info/requires.txt
+fitness_api.egg-info/top_level.txt

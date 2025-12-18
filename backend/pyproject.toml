@@ -1,0 +1,33 @@
+[project]
+name = "fitness-api"
+version = "1.0.0"
+description = "Backend API for Fitness Mobile App (Auth, Videos, Meal Plans, Workout Tracker)"
+authors = [{ name = "Nicholas Nio" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.6.0",
+    "bcrypt>=4.1.2",
+    "PyJWT>=2.9.0",
+    "passlib[bcrypt]>=1.7.4",
+    "requests>=2.32.3",
+    "pymongo>=4.10.1",
+    "motor>=3.6.0",
+    "sqlmodel>=0.0.21"
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.8.0",
+    "isort>=5.13.2",
+    "flake8>=7.1.1",
+    "pytest>=8.3.3",
+    "httpx>=0.27.2"
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
